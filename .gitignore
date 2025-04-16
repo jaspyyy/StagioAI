@@ -1,0 +1,34 @@
+# Node modules
+node_modules/
+
+# Environment files
+.env
+.env.*.local
+!.env.local  # Keep this one since it's already in the repository
+
+# Build artifacts
+.next/
+dist/
+build/
+
+# Dependency directories
+.pnp/
+.pnp.js
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Nested git repository
+paddle-nextjs-starter-kit/ 
